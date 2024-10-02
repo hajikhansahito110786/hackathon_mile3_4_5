@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Creator</title>
+    <!-- style link here -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- input container starts here -->
+    <section class="resume-builder">
+        <div class="container">
+            <h1>Dynamic Resume </h1>
+            <div class="resume_container">
+                <form class="inputField">
+                    <input type="text" placeholder="Objective" 
+                           title="Enter Your Objective" 
+                           name="objective" />
+                    <h3>Personal Information </h3>
+                    <input type="text" 
+                           name="name" 
+                           placeholder="Your Name" 
+                           title="Enter Your Name" />
+                    <input type="text" 
+                           name="phone" 
+                           placeholder="phone" 
+                           title="phone" />
+                   <input type="text" 
+                           name="email" 
+                           placeholder="email" 
+                           title="email" />        
+                    <input type="text" 
+                           name="Linkedin" 
+                           placeholder="Linkedin" 
+                           title="Linkedin" />   
+                    <h3>Education</h3>
+                    <input type="text" 
+                           name="education" 
+                           placeholder="education" 
+                           title="education" />   
+                     <h3>Skills</h3>
+                    <input name="skills"  placeholder="skills" 
+                           title="skills" 
+                           name="skills" />  
+                     <h3>Work/Achievements </h3>           
+                    <input name="projects"  placeholder="projects" 
+                           title="projects" 
+                           name="projects" />    
+                   
+                  
+                   
+                    
+                </form>
+            </div>
+           
+            
+        </div>
+    </section>
+    <!-- input container ends here -->
+
+    <!-- output container starts here -->
+    <div class="output_container"></div>
+    <!-- output container ends here -->
+
+    <!-- preview button -->
+    <button onclick="hide()">
+          Generate / Edit
+      </button>
+
+    <!-- script link here -->
+    <script src="script.js"></script>
+</body>
+
+</html>
